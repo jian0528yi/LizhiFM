@@ -1,0 +1,35 @@
+//
+//  ContainerCell.swift
+//  LizhiFM
+//
+//  Created by JLB on 2016/11/24.
+//  Copyright © 2016年 LB. All rights reserved.
+//
+
+import UIKit
+
+class ContainerCell: UITableViewCell {
+
+    var container: Container? {
+        didSet {
+            self.title.text = container?.title
+            let url = URL(string: "http://cdn.lizhi.fm/radio_cover/2016/07/29/30282292932770052_160x160.jpg")
+            self.icon.kf.setImage(with: url)
+        }
+    }
+
+    @IBOutlet weak var icon: UIImageView!
+    @IBOutlet weak var title: UILabel!
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
+    }
+
+}

@@ -1,12 +1,35 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
   - Kingfisher (3.1.0)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.12)
 
 DEPENDENCIES:
+  - AFNetworking
   - Kingfisher
+  - MJExtension
+  - MJRefresh
 
 SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Kingfisher: 7779f22e977393e9533a89a9685beb8f679d3767
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
 
-PODFILE CHECKSUM: 8fa46ccf7780921c7de5129ed043e78490ef2f30
+PODFILE CHECKSUM: 882d15d488778749c738214c185339096617872c
 
 COCOAPODS: 1.0.1

@@ -9,6 +9,9 @@
 #ifndef Bridging_Header_h
 #define Bridging_Header_h
 
-#import "Kingfisher/Kingfisher.h"
+#import "AFNetworking/AFNetworking.h"
+#import "XMLDictionary/XMLDictionary.h"
+#import "MJExtension/MJExtension.h"
+#import "MJRefresh/MJRefresh.h"
 
 #endif /* Bridging_Header_h */

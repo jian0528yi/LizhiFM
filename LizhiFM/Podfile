@@ -8,5 +8,8 @@ target 'LizhiFM' do
   # Pods for LizhiFM
 
 pod 'Kingfisher'
+pod 'AFNetworking'
+pod 'MJExtension'
+pod 'MJRefresh'
 
 end

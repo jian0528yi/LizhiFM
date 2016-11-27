@@ -7,13 +7,14 @@
 //
 
 import UIKit
+import Kingfisher
 
 class ContainerCell: UITableViewCell {
 
     var container: Container? {
         didSet {
             self.title.text = container?.title
-            let url = URL(string: "http://cdn.lizhi.fm/radio_cover/2016/07/29/30282292932770052_160x160.jpg")
+            let url = URL(string: (container?.albumArtURI)!)
             self.icon.kf.setImage(with: url)
         }
     }

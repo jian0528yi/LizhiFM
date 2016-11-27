@@ -15,6 +15,11 @@
 		2B097A581DE724F600A997AB /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B097A571DE724F600A997AB /* ContainerViewController.swift */; };
 		2B097A5A1DE7271B00A997AB /* ContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B097A591DE7271B00A997AB /* ContainerCell.swift */; };
 		2B097A5C1DE727C700A997AB /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B097A5B1DE727C700A997AB /* Container.swift */; };
+		2B097A5F1DE7385A00A997AB /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B097A5E1DE7385A00A997AB /* NetworkTools.swift */; };
+		2B33D2A61DE9BA5B00DC5AFC /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B33D2A51DE9BA5B00DC5AFC /* XMLDictionary.m */; };
+		2B3F7D9E1DE9DE4100EE40FD /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3F7D9D1DE9DE4100EE40FD /* TrackCell.swift */; };
+		2B3F7DA01DE9E06400EE40FD /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3F7D9F1DE9E06400EE40FD /* Track.swift */; };
+		2B3F7DA21DE9E0B000EE40FD /* TrackMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3F7DA11DE9E0B000EE40FD /* TrackMetadata.swift */; };
 		45C2945EBA4475E3D6531618 /* Pods_LizhiFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7CDDFB0EACFA8592597888 /* Pods_LizhiFM.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +35,12 @@
 		2B097A591DE7271B00A997AB /* ContainerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerCell.swift; sourceTree = "<group>"; };
 		2B097A5B1DE727C700A997AB /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		2B097A5D1DE72A9200A997AB /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		2B097A5E1DE7385A00A997AB /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		2B33D2A41DE9BA5B00DC5AFC /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		2B33D2A51DE9BA5B00DC5AFC /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		2B3F7D9D1DE9DE4100EE40FD /* TrackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
+		2B3F7D9F1DE9E06400EE40FD /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		2B3F7DA11DE9E0B000EE40FD /* TrackMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackMetadata.swift; sourceTree = "<group>"; };
 		34847F9ED134CDDB7F19E652 /* Pods-LizhiFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LizhiFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LizhiFM/Pods-LizhiFM.debug.xcconfig"; sourceTree = "<group>"; };
 		4B01B041D5D6A38A5FFE72AC /* Pods-LizhiFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LizhiFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-LizhiFM/Pods-LizhiFM.release.xcconfig"; sourceTree = "<group>"; };
 		9C7CDDFB0EACFA8592597888 /* Pods_LizhiFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LizhiFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,18 +79,32 @@
 		2B097A441DE720DA00A997AB /* LizhiFM */ = {
 			isa = PBXGroup;
 			children = (
+				2B33D2A31DE9BA5B00DC5AFC /* XMLDictionary */,
 				2B097A451DE720DA00A997AB /* AppDelegate.swift */,
 				2B097A471DE720DA00A997AB /* ViewController.swift */,
 				2B097A491DE720DA00A997AB /* Main.storyboard */,
 				2B097A571DE724F600A997AB /* ContainerViewController.swift */,
 				2B097A591DE7271B00A997AB /* ContainerCell.swift */,
 				2B097A5B1DE727C700A997AB /* Container.swift */,
+				2B3F7D9D1DE9DE4100EE40FD /* TrackCell.swift */,
+				2B3F7DA11DE9E0B000EE40FD /* TrackMetadata.swift */,
+				2B3F7D9F1DE9E06400EE40FD /* Track.swift */,
+				2B097A5E1DE7385A00A997AB /* NetworkTools.swift */,
 				2B097A5D1DE72A9200A997AB /* Bridging-Header.h */,
 				2B097A4C1DE720DA00A997AB /* Assets.xcassets */,
 				2B097A4E1DE720DA00A997AB /* LaunchScreen.storyboard */,
 				2B097A511DE720DA00A997AB /* Info.plist */,
 			);
 			path = LizhiFM;
+			sourceTree = "<group>";
+		};
+		2B33D2A31DE9BA5B00DC5AFC /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				2B33D2A41DE9BA5B00DC5AFC /* XMLDictionary.h */,
+				2B33D2A51DE9BA5B00DC5AFC /* XMLDictionary.m */,
+			);
+			path = XMLDictionary;
 			sourceTree = "<group>";
 		};
 		B59C949673DC94CE8529C920 /* Pods */ = {
@@ -225,9 +250,14 @@
 			files = (
 				2B097A481DE720DA00A997AB /* ViewController.swift in Sources */,
 				2B097A5A1DE7271B00A997AB /* ContainerCell.swift in Sources */,
+				2B097A5F1DE7385A00A997AB /* NetworkTools.swift in Sources */,
+				2B33D2A61DE9BA5B00DC5AFC /* XMLDictionary.m in Sources */,
 				2B097A5C1DE727C700A997AB /* Container.swift in Sources */,
+				2B3F7DA01DE9E06400EE40FD /* Track.swift in Sources */,
+				2B3F7DA21DE9E0B000EE40FD /* TrackMetadata.swift in Sources */,
 				2B097A581DE724F600A997AB /* ContainerViewController.swift in Sources */,
 				2B097A461DE720DA00A997AB /* AppDelegate.swift in Sources */,
+				2B3F7D9E1DE9DE4100EE40FD /* TrackCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
